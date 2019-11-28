@@ -35,5 +35,5 @@ module.exports = {
   ],
   email: 'anubhav.srivastava00@gmail.com',
   phone: '000-00000',
-  address: 'Miyazaki',
+  school: 'University of Miyazaki',
 };
