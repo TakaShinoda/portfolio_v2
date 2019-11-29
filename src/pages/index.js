@@ -19,8 +19,8 @@ const IndexPage = () => (
             <span className="text-primary">{config.lastName}</span>
           </h1>
           <div className="subheading mb-5">
-            {config.school} · {config.phone} ·
-            <a href={`mailto:${config.email}`}>{config.email}</a>
+             {/*{config.school} · {config.phone} ·
+            <a href={`mailto:${config.email}`}>{config.email}</a>*/}
           </div>
           <p className="lead mb-5">
             I am experienced in leveraging agile frameworks to provide a robust
@@ -124,10 +124,10 @@ const IndexPage = () => (
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="education"
+        id="works"
       >
         <div className="w-100">
-          <h2 className="mb-5">Education</h2>
+          <h2 className="mb-5">Works</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
@@ -231,10 +231,10 @@ const IndexPage = () => (
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="interests"
+        id="blog"
       >
         <div className="w-100">
-          <h2 className="mb-5">Interests</h2>
+          <h2 className="mb-5">Blog</h2>
           <p>
             Apart from being a web developer, I enjoy most of my time being
             outdoors. In the winter, I am an avid skier and novice ice climber.
@@ -254,10 +254,10 @@ const IndexPage = () => (
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="awards"
+        id="contact"
       >
         <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
+          <h2 className="mb-5">Contact</h2>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
