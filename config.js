@@ -18,22 +18,12 @@ module.exports = {
       url: 'https://github.com/TakaShinoda',
     },
     {
-      icon: 'fa-linkedin-in',
-      name: 'Linkedin',
-      url: '',
-    },
-    {
       icon: 'fa-twitter',
       name: 'Twitter',
       url: 'https://twitter.com/tttttt_621_s',
     },
-    {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: '',
-    },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  school: 'University of Miyazaki',
+  //email: 'anubhav.srivastava00@gmail.com',
+  //phone: '000-00000',
+  //school: 'University of Miyazaki',
 };
