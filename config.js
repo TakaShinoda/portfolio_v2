@@ -1,12 +1,12 @@
 module.exports = {
-  siteTitle: 'Gatsby', // <title>
+  siteTitle: 'tttttt_621_s', // <title>
   manifestName: 'Resume',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestShortName: 'Portfolio', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/images/profile.jpg',
   pathPrefix: `/gatsby-starter-resume/`, // This path is subpath of your hosting https://domain/portfolio
   firstName: 'Takahiro',
   lastName: 'Shinoda',
@@ -26,4 +26,11 @@ module.exports = {
   //email: 'anubhav.srivastava00@gmail.com',
   //phone: '000-00000',
   //school: 'University of Miyazaki',
+  blogLinks: [
+    {
+      icon: 'fa fa-pen-nib',
+      name: 'Hatena Blog',
+      url: 'https://takashinoda.hatenablog.com/',
+    },
+  ],
 };
