@@ -57,7 +57,7 @@ const IndexPage = () => (
               <div className="subheading mb-3">University of Miyazaki</div>
               <p>
               Master of Information System Engineering, Faculty of Engineering, University of Miyazaki.
-              My study interest is entertainment computing.
+              Study interest is entertainment computing.
               </p>
             </div>
             <div className="resume-date text-md-right">
