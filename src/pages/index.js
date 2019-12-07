@@ -99,6 +99,7 @@ const IndexPage = () => (
               <span className="text-primary">August 2002 - May 2006</span>
             </div>
           </div>
+          
         </div>
       </section>
 
