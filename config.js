@@ -22,15 +22,13 @@ module.exports = {
       name: 'Twitter',
       url: 'https://twitter.com/tttttt_621_s',
     },
-  ],
-  //email: 'anubhav.srivastava00@gmail.com',
-  //phone: '000-00000',
-  //school: 'University of Miyazaki',
-  blogLinks: [
     {
       icon: 'fa fa-pen-nib',
       name: 'Hatena Blog',
       url: 'https://takashinoda.hatenablog.com/',
     },
   ],
+  //email: 'anubhav.srivastava00@gmail.com',
+  //phone: '000-00000',
+  //school: 'University of Miyazaki',
 };
