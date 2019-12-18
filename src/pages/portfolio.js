@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
 import { Link } from 'gatsby';
 
@@ -15,10 +14,12 @@ const IndexPage = () => (
               <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                   <div className="resume-content">
                       <p>写真</p>
-                      <p>URL</p>
-                      <p>コード</p>
-                      <p>説明</p>
-                      <p>使用技術</p>
+                      <ul>
+                          <li>URL</li>
+                          <li>GitHub</li>      
+                          <li>使用技術</li>
+                          <li>説明</li>
+                        </ul>
                     </div>
                 </div>
                 <Link to="./">

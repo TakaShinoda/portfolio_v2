@@ -33,7 +33,7 @@ const IndexPage = () => (
             {config.socialLinks.map(social => {
               const { icon, url } = social;
               return (
-                <a key={url} href={url} target="_blank">
+                <a key={url} href={url} rel="noopener noreferrer" target="_blank">
                   <i className={`fab ${icon}`}></i>
                 </a>
               );
@@ -144,16 +144,12 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Whiteboard</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>ReactJS, hoge</div>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Miyazaki Prefecture Tourist Review Website</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Vue.js, hoge</div>
             </div>
           </div>
 
