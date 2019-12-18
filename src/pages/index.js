@@ -143,23 +143,25 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
+              <h3 className="mb-0">Whiteboard</h3>
+              <div className="subheading mb-3">Bachelor of Science</div>
+              <div>ReactJS, hoge</div>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
               <h3 className="mb-0">Miyazaki Prefecture Tourist Review Website</h3>
               <div className="subheading mb-3">Bachelor of Science</div>
               <div>Vue.js, hoge</div>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">Protfolio v1.0</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <div>html, css, js</div>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <h3 className="mb-0">
+                <Link to="./portfolio">Protfolio v1.0</Link>
+              </h3>
             </div>
           </div>
           
@@ -174,6 +176,7 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h2 className="mb-5">Contact</h2>
+          <p>Mail or SNS</p>
           <ul className="fa-ul mb-0">
             <li>
               {/*<i className="fa-li fa fa-envelope text-warning"></i>*/}
