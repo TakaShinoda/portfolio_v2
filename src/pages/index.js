@@ -1,7 +1,5 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
-
 import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
@@ -24,10 +22,9 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>*/}
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+          Hello! I am Takahiro Shinoda.<br />
+          I am a master student at Department of Computer Science and System Engineering, University of Miyazaki. 
+
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
