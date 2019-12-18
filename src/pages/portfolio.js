@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import { Link } from 'gatsby';
 
-const IndexPage = () => (
+  const IndexPage = () => (
   <Layout>
     <div className="container-fluid p-0">
       <section
@@ -15,10 +15,10 @@ const IndexPage = () => (
                   <div className="resume-content">
                       <p>写真</p>
                       <ul>
-                          <li>URL</li>
-                          <li>GitHub</li>      
-                          <li>使用技術</li>
-                          <li>説明</li>
+                          <li>URL: <a href="https://TakaShinoda.github.io/portfolio/" rel="noopener noreferrer" target="_blank">https://TakaShinoda.github.io/portfolio/</a></li>
+                          <li>GitHub: <a href="https://github.com/TakaShinoda/portfolio" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/portfolio</a></li>      
+                          <li>HTML5, CSS3, JavaScript, GitHub</li>
+                          <li>This is the previous portfolio site.</li>
                         </ul>
                     </div>
                 </div>
