@@ -146,7 +146,9 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Miyazaki Prefecture Tourist Review Website</h3>
+              <h3 className="mb-0">
+                <Link to="./tours">Miyazaki Prefecture Tourist Review Website</Link>
+              </h3>
             </div>
           </div>
 
