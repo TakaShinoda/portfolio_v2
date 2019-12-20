@@ -14,16 +14,16 @@ import Img from 'gatsby-image';
         id="about"
       >
           <div className="w-100">
-              <h2 className="mb-5">MIYAZAKI PREFECTURE TOURIST REVIEW WEBSITE</h2>
+              <h2 className="mb-5">Whiteboard</h2>
               <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                   <div className="resume-content">
                       <div>
                           <Img fixed={data.file.childImageSharp.fixed} />
                         </div>
                       <ul>
-                          <li>URL: <a href="https://miyazaki-tours.firebaseapp.com/" rel="noopener noreferrer" target="_blank">https://miyazaki-tours.firebaseapp.com</a></li>
-                          <li>GitHub: <a href="https://github.com/TakaShinoda/miyazaki-tours" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/miyazaki-tours</a></li>      
-                          <li>Vue.js, Firebase</li>
+                          <li>URL: <a href="https://labapp-75272.firebaseapp.com/" rel="noopener noreferrer" target="_blank">https://labapp-75272.firebaseapp.com/</a></li>
+                          <li>GitHub: <a href="https://github.com/TakaShinoda/Whiteboard" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/Whiteboard</a></li>      
+                          <li>React.js, Redux, Next.js, Firebase</li>
                           <li>説明文(準備中)</li>
                         </ul>
                     </div>
@@ -45,7 +45,7 @@ export default IndexPage;
 
 const query = graphql`
     query {
-        file(relativePath: {eq: "tours.png"}) {
+        file(relativePath: {eq: "whiteboard.png"}) {
             childImageSharp{
                 fixed(width: 450) {
                     ...GatsbyImageSharpFixed
