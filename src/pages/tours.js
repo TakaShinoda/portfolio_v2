@@ -24,7 +24,7 @@ import Img from 'gatsby-image';
                           <li>URL: <a href="https://miyazaki-tours.firebaseapp.com/" rel="noopener noreferrer" target="_blank">https://miyazaki-tours.firebaseapp.com</a></li>
                           <li>GitHub: <a href="https://github.com/TakaShinoda/miyazaki-tours" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/miyazaki-tours</a></li>      
                           <li>Vue.js, Firebase(Authentication, Realtime Database, Hosting)</li>
-                          <li></li>
+                          <li>It is a word-of-mouth site of a tourist spot.</li>
                         </ul>
                     </div>
                 </div>
