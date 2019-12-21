@@ -23,8 +23,8 @@ import Img from 'gatsby-image';
                       <ul>
                           <li>URL: <a href="https://miyazaki-tours.firebaseapp.com/" rel="noopener noreferrer" target="_blank">https://miyazaki-tours.firebaseapp.com</a></li>
                           <li>GitHub: <a href="https://github.com/TakaShinoda/miyazaki-tours" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/miyazaki-tours</a></li>      
-                          <li>Vue.js, Firebase</li>
-                          <li>説明文</li>
+                          <li>Vue.js, Firebase(Authentication, Realtime Database, Hosting)</li>
+                          <li></li>
                         </ul>
                     </div>
                 </div>
