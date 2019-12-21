@@ -23,7 +23,7 @@ import Img from 'gatsby-image';
                       <ul>
                           <li>URL: <a href="https://labapp-75272.firebaseapp.com/" rel="noopener noreferrer" target="_blank">https://labapp-75272.firebaseapp.com/</a></li>
                           <li>GitHub: <a href="https://github.com/TakaShinoda/Whiteboard" rel="noopener noreferrer" target="_blank">https://github.com/TakaShinoda/Whiteboard</a></li>      
-                          <li>React.js, Redux, Next.js, Firebase</li>
+                          <li>React.js, Redux, Next.js, Firebase(Realtime Database, Hosting)</li>
                           <li>説明文</li>
                         </ul>
                     </div>
