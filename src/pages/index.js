@@ -107,23 +107,23 @@ const IndexPage = () => (
             </li>
           </ul>
 
-          <div className="subheading mb-3">Workflow</div>
+          <div className="subheading mb-3">Interest</div>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
+              SPA development using Vue.js or React.js
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
+              Developing with firebase
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
+              PWA
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
+              Development of services that can solve issues by reducing user's trouble
             </li>
           </ul>
         </div>
